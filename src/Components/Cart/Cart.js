@@ -21,7 +21,7 @@ const Cart = ({ cart, afterDiscount, discounts, removeFromCart }) => {
 
    
      return (
-        <div className='bg-white h-full w-64 fixed overflow-y-auto right-0 '>
+        <div className='bg-white h-full w-64 fixed overflow-y-auto right-0 overflow-hidden'>
 
             <div className='flex gap-x-4 p-4 items-center'>
                 <img className='w-12' src={pic} alt="" />
